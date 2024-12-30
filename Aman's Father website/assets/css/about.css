@@ -1,0 +1,119 @@
+.book-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    background-color: #111111;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 15px
+  }
+  
+  @media (min-width: 768px) {
+    .book-section {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
+  .about-container {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about {
+    text-align: left;
+    margin: 15px;
+  }
+  
+  .about-title {
+    color: #D09852;
+    margin-bottom: 10px;
+  }
+  
+  .about-text {
+    line-height: 1.6;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .content-container {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  .book-photo {
+    background-color: #d4a34d;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px;
+  }
+  
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .detail-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .detail-item i {
+    color: #ffffff; /* Changed to white for better visibility */
+    font-size: 1.5rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .button-link {
+    background-color: #d4a34d;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .button-link:hover {
+    background-color: #D09852;
+  }
+
+  .about-heading{
+    background: #111111;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .category-title-about {
+    
+  }
